@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Noto+Sans:wght@300;400&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;400&family=Sora:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #380759, #590D8C, #6B12A6, #8E1ED9);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.painel {
+   
+    margin: auto;
+    text-align: center;
+    background: #C394F2;
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+    border-radius: 10px;
+}
+
+h1 {
+    padding: 30px;
+    color: #f2f2f2;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+#sim {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 70px;
+    width: 170px;
+    border-radius: 10px;
+    background: rgb(9, 162, 9);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #f2f2f2;
+    margin-left: -175px;
+    border: 1px solid rgb(9, 162, 9);
+}
+
+#nao {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 70px;
+    width: 170px;
+    border-radius: 10px;
+    background: rgb(235, 8, 8);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #f2f2f2;
+    margin-left: 10px;
+    border: 1px solid rgb(235, 8, 8);
+}
+
+img {
+
+    max-width: 90%;
+    border-radius: 10px;
+}
